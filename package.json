@@ -1,0 +1,43 @@
+{
+  "name": "modulo10",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint .",
+    "postinstall": "jetify"
+  },
+  "dependencies": {
+    "D": "^1.0.0",
+    "babel-plugin-root-import": "^6.4.1",
+    "eslint-import-resolver-babel-plugin-root-import": "^1.1.1",
+    "react": "16.8.6",
+    "react-native": "0.60.5",
+    "react-native-gesture-handler": "^1.4.1",
+    "react-native-linear-gradient": "^2.5.6",
+    "react-navigation": "^4.0.6",
+    "styled-components": "^4.3.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/runtime": "^7.4.5",
+    "babel-eslint": "^10.0.2",
+    "babel-jest": "^24.8.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "^6.2.2",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.2",
+    "jest": "^24.8.0",
+    "jetifier": "^1.6.4",
+    "metro-react-native-babel-preset": "^0.54.1",
+    "prettier": "^1.18.2",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
